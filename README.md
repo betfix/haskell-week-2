@@ -1,14 +1,14 @@
 # haskell-week-2
-Guess English words from their anagrams
+## Guess English words from their anagrams
 
 In order to run the program, open command prompt and type:
 
-stack ghci --package random --package random-shuffle
+`stack ghci --package random --package random-shuffle`
 
 This runs haskell repl with two additional packages. Then type:
 
-:load anagrams.hs
-main
+`:load anagrams.hs`
+`main`
 
 An example session looks like this:
 
@@ -33,4 +33,4 @@ reveal
 tusats wins: 5 fails: 1
 end
 Game over.  wins: 5 fails: 1
-*Main>
+\*Main>
