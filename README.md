@@ -12,7 +12,7 @@ This runs haskell repl with two additional packages. Then type:
 
 An example session looks like this:
 
-Prelude> :load anagrams.hs
+```Prelude> :load anagrams.hs
 [1 of 1] Compiling Main             ( anagrams.hs, interpreted )
 Ok, one module loaded.
 \*Main> main
@@ -34,3 +34,4 @@ tusats wins: 5 fails: 1
 end
 Game over.  wins: 5 fails: 1
 \*Main>
+```
